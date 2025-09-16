@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api/userEntity";
+const API_URL = "app-dc9c9368-12cb-4a91-b2af-34df8039b0b8.cleverapps.io/api/userEntity";
 
 export async function getAll() {
   const response = await axios.get(`${API_URL}/`);
